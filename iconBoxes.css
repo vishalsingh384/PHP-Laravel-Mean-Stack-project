@@ -1,0 +1,29 @@
+.icon-boxes{
+    margin-top: 50px;
+    margin-left: 120px;
+    height:200px;
+    width:fit-content;
+    padding-left: 30px;
+    border-bottom: 2px solid rgb(131, 128, 125); 
+   
+}
+.icon-boxes-row{
+    padding-left: 10px;
+    float: left;
+    width:150px;
+    margin: 0px 100px 0px 100px;
+    height: 100%;
+   
+}
+.icon-boxes-row img{
+    height: 75px;
+    padding:0px 0px 0px 17px;
+  
+}
+.icon-boxes-row h1{
+    color: rgb(31, 53, 53);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  padding:0px 0px 0px 20px;
+
+}

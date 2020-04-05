@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Feedback Page</title>
+    </head>
+    <body>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Website Feedback</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="main.css" >
+<script src=""></script>
+</head>
+<body >
+        <div class="se-pre-con"></div>
+        <script src="slider.js"></script>
+<div class="container">
+    <div class="imagebg"></div>
+    <div class="row " style="margin-top: 50px">
+        <div class="col-md-6 col-md-offset-3 form-container">
+            <h2>We'd love your feedback!</h2> 
+            <form role="form" method="post" id="reused_form">
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <label>Overall, how satisfied are you with our website ?</label>
+                        <p>
+                            <label class="radio-inline">
+                                <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                Bad 
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="experience" id="radio_experience" value="average" >
+                                Average 
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="experience" id="radio_experience" value="good" >
+                                Good 
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <label for="comments"> Please tell us about your experience.How can we make it better?</label>
+                        <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <label for="name"> What was the primary purpose for your visit to our website today?</label>
+                         <select name="Purpose">
+                                <option value="Online Shopping">Online Shopping</option>
+                                <option value="Offline Shopping">Offline Shopping</option>
+                                <option value="Look for deals">Look out for deals</option>
+                                <option value="Other">Other</option>
+                         </select>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <label for="email"> Were you able to successfully complete the purpose of your visit?</label>
+                         <p>
+                            <label class="radio-inline">
+                                <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                Yes
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="experience" id="radio_experience" value="average" >
+                                No
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="experience" id="radio_experience" value="good" >
+                                In-progress
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button onclick="myfuction()" class="btn btn-lg btn-warning btn-block" >Submit</button>
+                    </div>
+                </div>
+            </form>
+            <a href="HOME1.html"><input type="button" value="Back"></a>
+            </div>
+            <script>
+                function myfuction()
+                {
+                alert("Your Feedback Submitted Successfully");
+                }
+                </script>
+                </div>
+                </div>
+    </body>
+</html>
+                
